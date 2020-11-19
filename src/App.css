@@ -1,0 +1,47 @@
+.firstBox, .secondBox, .thirdBox, .forthBox, .fifthBox {
+  border: 1px solid black;
+  height: 180px;
+  width: 180px;
+  background-color: aqua;
+  margin-left: 10px;
+}
+
+.firstRow .firstBox{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vw;
+}
+
+.firstRow .secondBox{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2vw;
+    margin-left: 15vw;
+}
+
+.middleRow .fifthBox{
+    margin-top: 9vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 6vw;
+}
+
+.secondRow .thirdBox{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 16vw;
+}
+
+.secondRow .forthBox{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 16vw;
+  margin-left: 15vw;
+} 
